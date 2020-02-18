@@ -13,9 +13,15 @@ function App() {
         })
   }, []);
 
-  return <div>
-                {name}
-         </div>
+  return <BrowserRouter basename={process.env.PUBLIC_URL}>
+                          <div>
+                              {name}
+                          </div>
+      </BrowserRouter>
+
+
+
+
 
 }
 export default App;

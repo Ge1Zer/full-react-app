@@ -21,8 +21,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "proxy": "http://localhost:5000",
-  "homepage": "http://localhost:3000",
+  "proxy": "https://evening-garden-61188.herokuapp.com",
+  "homepage": "https://geizer6991.github.io/test-react-app",
   "eslintConfig": {
     "extends": "react-app"
   },
