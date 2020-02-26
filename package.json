@@ -8,9 +8,14 @@
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
     "build": "^0.1.4",
+    "form-data": "^3.0.0",
     "gh-pages": "^2.2.0",
+    "gridfs-store": "^1.0.8",
+    "history": "^4.10.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0"
   },
   "scripts": {
@@ -37,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-browser-router": "^2.1.2"
   }
 }
